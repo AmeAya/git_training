@@ -1,0 +1,10 @@
+git init -> Инициализирует эту папку как ГИТ репозиторий
+git status -> Проверяет статус ГИТ репозитория
+git add <FILE> -> Добавляет для ГИТА отслеживание <FILE>
+git commit -m '<MESSAGE>' -> Подтверждаем изменения и добавляем сообщение <MESSAGE>
+git config --global user.email "<EMAIL>" -> Установить в настройках гита вашу почту как <EMAIL>
+git config --global user.name "<NAME>" -> Установить в настройках гита ваше имя как <NAME>
+git remote add origin <URL> -> Привязать локальный гит к репозиторию по <URL>
+git push --set-upstream origin master -> Отправить на сервер и привязать ветку master к master на сервере
+git push -> Отправить изменения на сервер
+git add . -> Добавить все файлы и папки кроме тех что в .gitignore
